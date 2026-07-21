@@ -21,4 +21,3 @@ npm run build
 - Variant quantities are tracked independently, so changing from one color to another does not overwrite the previous color quantity.
 - The review panel is computed from the current configuration and stays in sync with card steppers.
 - `Save my system for later` writes the full selection state to `localStorage` and restores it on reload.
-- The Figma connector required edit access to inspect the file, so implementation fidelity is based on the supplied screenshots and task brief.
