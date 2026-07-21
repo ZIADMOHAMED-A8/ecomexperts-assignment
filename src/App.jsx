@@ -37,13 +37,10 @@ export default function App() {
     return { subtotal, total, savings: subtotal - total }
   }, [reviewLines])
 
-  function setQuantity(key, delta) {
+  function setQuantity(key, delta, category) {
     setSelection((current) => ({
       ...current,
-      quantities: {
-        ...current.quantities,
-        [key]: Math.max(0, (current.quantities[key] || 0) + delta),
-      },
+      quantities: updateQuantity(current.quantities, key, delta, category),
     }))
   }
 
@@ -99,4 +96,17 @@ export default function App() {
       />
     </main>
   )
+}
+
+function updateQuantity(quantities, key, delta, category) {
+  const nextQuantity = Math.max(0, (quantities[key] || 0) + delta)
+
+  if (category === 'Plan' && nextQuantity > 1) {
+    return quantities
+  }
+
+  return {
+    ...quantities,
+    [key]: nextQuantity,
+  }
 }

@@ -82,6 +82,7 @@ function StepSection({
                 <ProductCard
                   key={item.id}
                   item={item}
+                  category={step.category}
                   activeVariant={activeVariant}
                   quantity={quantityFor(item)}
                   onVariantChange={onVariantChange}

@@ -1,7 +1,7 @@
 import { money } from '../utils/format'
 import { Stepper } from './Stepper'
 
-export function ProductCard({ item, activeVariant, quantity, onVariantChange, onQuantityChange }) {
+export function ProductCard({ item, category, activeVariant, quantity, onVariantChange, onQuantityChange }) {
   return (
     <article
       className={`relative grid min-h-[158px] w-full grid-cols-[116px_minmax(0,1fr)] grid-rows-[1fr_auto] rounded-lg border-2 bg-white p-2.5 min-[761px]:[&:nth-child(5)]:col-span-full min-[761px]:[&:nth-child(5)]:max-w-[390px] min-[1451px]:min-h-[330px] min-[1451px]:max-w-none min-[1451px]:grid-cols-1 min-[1451px]:grid-rows-[150px_auto_1fr_auto] min-[1451px]:[&:nth-child(5)]:col-auto ${
@@ -48,8 +48,8 @@ export function ProductCard({ item, activeVariant, quantity, onVariantChange, on
         count={quantity.count}
         compareAt={item.compareAt}
         price={item.price}
-        onMinus={() => onQuantityChange(quantity.key, -1)}
-        onPlus={() => onQuantityChange(quantity.key, 1)}
+        onMinus={() => onQuantityChange(quantity.key, -1, category)}
+        onPlus={() => onQuantityChange(quantity.key, 1, category)}
       />
     </article>
   )
