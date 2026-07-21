@@ -1,0 +1,126 @@
+{
+  "steps": [
+    {
+      "id": "cameras",
+      "title": "Choose your cameras",
+      "category": "Cameras",
+      "items": [
+        {
+          "id": "cam-v4",
+          "name": "Wyze Cam v4",
+          "badge": "Save 22%",
+          "description": "The clearest Wyze Cam ever made.",
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-5186547.png?format=pjpg&v=1762447655&width=700",
+          "compareAt": 35.98,
+          "price": 27.98,
+          "variants": [
+            { "id": "white", "name": "White", "swatch": "#f9fbfb" },
+            { "id": "grey", "name": "Grey", "swatch": "#a8adb2" },
+            { "id": "black", "name": "Black", "swatch": "#151515" }
+          ]
+        },
+        {
+          "id": "cam-pan-v3",
+          "name": "Wyze Cam Pan v3",
+          "badge": "Save 12%",
+          "description": "360 degree pan and 180 degree tilt security camera.",
+          "image": "https://ca.wyze.com/cdn/shop/products/CamPanPro_Front_0001.jpg?v=1700002586&width=700",
+          "compareAt": 28.99,
+          "price": 23.99,
+          "variants": [
+            { "id": "white", "name": "White", "swatch": "#f9fbfb" },
+            { "id": "black", "name": "Black", "swatch": "#151515" }
+          ]
+        },
+        {
+          "id": "cam-floodlight-v2",
+          "name": "Wyze Cam Floodlight v2",
+          "badge": "Save 22%",
+          "description": "2K floodlight camera with a 160 degree wide-angle view for your garage.",
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-floodlight-v2-wyze-labs-inc-339891.png?format=pjpg&v=1762445396&width=700",
+          "compareAt": 89.98,
+          "price": 69.98,
+          "variants": [
+            { "id": "white", "name": "White", "swatch": "#f9fbfb" },
+            { "id": "black", "name": "Black", "swatch": "#151515" }
+          ]
+        },
+        {
+          "id": "duo-doorbell",
+          "name": "Wyze Duo Cam Doorbell",
+          "description": "Two cameras. Two views. Double the porch protection.",
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-duo-cam-battery-doorbell-wyze-labs-inc-148701.png?format=pjpg&v=1770920552&width=700",
+          "compareAt": 69.98,
+          "price": 69.98,
+          "variants": []
+        },
+        {
+          "id": "battery-cam-pro",
+          "name": "Wyze Battery Cam Pro",
+          "description": "Protect anywhere. See everything in 2.5K HDR. No power outlet or electrician needed.",
+          "image": "https://ca.wyze.com/cdn/shop/products/WyzeBatteryCamProMain-02_1a2882aa-4d89-4081-bce9-b6a60a46992c.jpg?v=1691699421&width=700",
+          "compareAt": 89.98,
+          "price": 89.98,
+          "variants": [
+            { "id": "white", "name": "White", "swatch": "#f9fbfb" },
+            { "id": "black", "name": "Black", "swatch": "#151515" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "title": "Choose your plan",
+      "category": "Plan",
+      "items": [
+        {
+          "id": "cam-unlimited",
+          "name": "Cam Unlimited",
+          "description": "Full-length cloud recording and advanced AI detections.",
+          "compareAt": 12.99,
+          "price": 9.99,
+          "billing": "/mo",
+          "included": true
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "title": "Choose your sensors",
+      "category": "Sensors",
+      "items": [
+        {
+          "id": "motion-sensor",
+          "name": "Wyze Sense Motion Sensor",
+          "description": "Detects motion and sends alerts through your hub.",
+          "compareAt": 29.99,
+          "price": 29.99,
+          "included": true
+        },
+        {
+          "id": "sense-hub",
+          "name": "Wyze Sense Hub (Required)",
+          "description": "Required hub for home monitoring sensors.",
+          "compareAt": 29.92,
+          "price": 0,
+          "included": true
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "title": "Add extra protection",
+      "category": "Accessories",
+      "items": [
+        {
+          "id": "microsd-card",
+          "name": "Wyze MicroSD Card (256GB)",
+          "description": "Record continuous local footage.",
+          "compareAt": 20.98,
+          "price": 20.98,
+          "included": true
+        }
+      ]
+    }
+  ]
+}
